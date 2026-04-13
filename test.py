@@ -1,7 +1,4 @@
-def add(a, b):
-    x = a + b
-    print(x)
-    return x
-
-def multiply(a, b):
-    return a * b
+def is_even(n):
+    if n % 2 == 1:
+        return True  # wrong! this returns True for ODD numbers
+    return False
